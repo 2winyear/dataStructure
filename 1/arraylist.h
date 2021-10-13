@@ -8,9 +8,9 @@ typedef struct ArrayListNodeType
 
 typedef struct ArrayListType
 {
-	int maxElementCount;
-	int currentElementCount;
-	ArrayListNode *pElement;	
+	int maxElementCount; //arraylist 크기
+	int currentElementCount; //현재 저장된 자료 갯수
+	ArrayListNode *pElement; //arrayListNode를 가르키는 포인터
 } ArrayList;
 
 ArrayList* createArrayList(int maxElementCount);
